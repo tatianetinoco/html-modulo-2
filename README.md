@@ -1,11 +1,11 @@
-#HTML Módulo 02 - Conceitos Básicos
+# HTML Módulo 02 - Conceitos Básicos
 
 
-###*Site HTML para desafio do curso da DIO*
+### *Site HTML para desafio do curso da DIO*
 
 
 
-####Sobre o desafio:
+#### Sobre o desafio:
 
 Criar um site com temas abordados:
 * Formulários
@@ -13,7 +13,7 @@ Criar um site com temas abordados:
 * Tabelas
 * Estruturação e formatação de texto
 
-####Instruções
+#### Instruções
 1. Criar um site de uma clínica
 2. Conter o seguinte menu de navegação:
       
@@ -24,6 +24,6 @@ Criar um site com temas abordados:
 * Contato
  
 
-####Estrutura das páginas
+#### Estrutura das páginas
 Todas as páginas terão que seguir um padrão pré-definido utilizando um arquivo template.html como base. 
 
