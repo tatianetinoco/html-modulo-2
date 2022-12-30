@@ -1,0 +1,177 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(104, 104, 104);
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: #D4D5E7;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu li {
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-bottom:1px solid #a4a0f5; 
+}
+
+.menu li a {
+    display:block;
+    height:1%;
+    text-decoration:none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color: #606aa5
+}
+
+.menu li a:hover { 
+    background-color: #c1c2d6;
+    color:#563c9e;
+    border-left:10px solid #b6b6c2;
+    transition: 1s all;
+    cursor: pointer;
+}  
+
+
+.header {
+    background-color: #606BA6;
+    min-height: 150px;
+}
+
+
+.header h1 { 
+    text-align: center;
+    padding: 10px;
+    color: #c1c2d6;
+    text-shadow: 1px 1px 1px #333;
+}
+
+.content {
+    background-color: #F8F1EB;
+    min-height: 300px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.content2 {
+    padding: 10px;
+}
+
+.especialidades { background-color: #FAE9DF;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 2px;
+    margin-bottom: 5px;
+    width: 65%;
+    word-break: break-word;
+}
+
+.especialidades ul {
+    display: flex;
+    justify-content: space-between; 
+    list-style-type: none;
+}
+    
+.especialidades h2 { 
+    color: #9e877b;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.convenios {
+    background-color: #FAE9DF; 
+    border-radius: 10px;
+    padding: 2px; 
+    font-size: 18px;
+}
+
+.convenios h2 {
+    color: #9e877b;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.table, th, td {
+    border: 1px solid black;
+}
+
+.table, th {
+    background: #E7E9EB;
+    padding:10px;
+}
+
+.table, td {
+    padding: 5px;
+}
+
+.table, tr:hover {
+    background-color: #E7E9EB;
+}
+ 
+#formulario {
+    width: 60%;}
+
+
+.convenios ul { 
+    list-style-type: none;
+}
+
+.socialmedia {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;  
+}
+
+.socialmedia li{
+    margin: 0 10px; 
+}
+
+.footer h3{
+   font-size: 30px;
+   text-transform: capitalize; 
+   text-align: center;
+}
+
+.footer-bottom{
+    background: #4e578a;
+    padding: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #606BA6;
+    min-height: 150px;
+    
+}
+
+
+
+
+
+
